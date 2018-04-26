@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_marginTop="@dimen/n_5"
+  android:layout_marginBottom="@dimen/n_5">
+  <TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    <TableRow>
+      <TextView
+        android:id="@+id/ProductoPreorden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ns_10"
+        android:text="@string/producto"
+        android:paddingBottom="@dimen/n_5" />
+      <TextView
+        android:id="@+id/ValorProductoPreorden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ns_10"
+        android:layout_marginLeft="@dimen/n_30"
+        android:layout_alignParentTop="false"
+        android:paddingBottom="@dimen/n_5" />
+    </TableRow>
+    <TableRow>
+      <TextView
+        android:id="@+id/DescripcionPreorden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ns_10"
+        android:text="@string/descripcion"
+        android:paddingBottom="@dimen/n_5" />
+      <TextView
+        android:id="@+id/ValorDescripcionPreorden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ns_10"
+        android:layout_marginLeft="@dimen/n_30"
+        android:layout_alignParentTop="false"
+        android:paddingBottom="@dimen/n_5" />
+    </TableRow>
+    <TableRow>
+      <TextView
+        android:id="@+id/UnidadPreorden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ns_10"
+        android:text="@string/um"
+        android:paddingBottom="@dimen/n_5" />
+      <TextView
+        android:id="@+id/ValorUnidadPreorden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ns_10"
+        android:layout_marginLeft="@dimen/n_30"
+        android:layout_alignParentTop="false"
+        android:paddingBottom="@dimen/n_5" />
+    </TableRow>
+    <TableRow>
+      <TextView
+        android:id="@+id/CantidadPreorden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ns_10"
+        android:text="@string/cantidad_autorizada"
+        android:paddingBottom="@dimen/n_5" />
+      <TextView
+        android:id="@+id/ValorCantidadPreorden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ns_10"
+        android:layout_marginLeft="@dimen/n_30"
+        android:layout_alignParentTop="false"
+        android:paddingBottom="@dimen/n_5" />
+    </TableRow>
+    <TableRow>
+      <TextView
+        android:id="@+id/UnitarioPreorden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ns_10"
+        android:text="@string/valor_unitario"
+        android:paddingBottom="@dimen/n_5" />
+      <TextView
+        android:id="@+id/ValorUnitarioPreorden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ns_10"
+        android:layout_marginLeft="@dimen/n_30"
+        android:layout_alignParentTop="false"
+        android:paddingBottom="@dimen/n_5" />
+    </TableRow>
+    <TableRow>
+      <TextView
+        android:id="@+id/TotalPreorden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ns_10"
+        android:text="@string/valor_total_compra"
+        android:paddingBottom="@dimen/n_5" />
+      <TextView
+        android:id="@+id/ValorTotalPreorden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ns_10"
+        android:layout_marginLeft="@dimen/n_30"
+        android:layout_alignParentTop="false"
+        android:paddingBottom="@dimen/n_5" />
+    </TableRow>
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentStart="true"
+      android:background="@color/gray" />
+  </TableLayout>
+</LinearLayout>

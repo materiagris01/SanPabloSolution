@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, Click Me!</string>
+  <string name="app_name">BS Soft</string>
+
+  <!-- Usuario -->
+  <string name="usuario">Usuario</string>
+  <string name="password">Password</string>
+  <string name="ingresar">Ingresar</string>
+
+  <!-- Home Fragment -->
+  <string name="descripcion_app">Sistema de aprobación de pre-órdenes y pedidos</string>
+  <string name="pre_orden">Pre - Órdenes</string>
+  <string name="pedidos">Pedidos</string>
+  <string name="slide">Desliza hacia los lados para acceder más rápido</string>
+
+  <!-- Pedidos -->
+  <string name="pedidos">Pedidos</string>
+  <string name="items">items</string>
+  <string name="no_hay_pedidos">No hay pedidos pendientes</string>
+  <string name="busqueda">Ingrese algún número de trámite</string>
+
+  <string name="no_hay_resultados">No hay resultados</string>
+
+  <!-- Pre Orden -->
+  <string name="preorden">Pre - órdenes</string>
+  <string name="no_hay_preordenes">No hay pre-órdenes pendientes</string>
+
+  <!-- Navigation -->
+  <string name="text_swt">Habilitar notificaciones</string>
+  <string name="nombre_empresa">Clínica San Pablo</string>
+  <string name="cerrar_sesion">¿Estas seguro que deseas cerrar sesión?</string>
+  <string name="cancelar">Cancelar</string>
+  <string name="salir">Salir</string>
+
+  <!-- Pedido Detalle -->
+  <string name="fecha">Fecha:</string>
+  <string name="compania">Compañía:</string>
+  <string name="sucursal">Sucursal:</string>
+  <string name="seccion">Sección:</string>
+  <string name="solicitante">Solicitante:</string>
+  <string name="observacion">Observación:</string>
+  <string name="producto">Producto:</string>
+  <string name="descripcion">Descripción:</string>
+  <string name="cantidad">Cantidad:</string>
+  <string name="btn_detalle">DETALLES</string>
+  <string name="btn_adjunto">ADJUNTOS</string>
+  <string name="no_hay_detalle">No hay detalles</string>
+  <string name="no_hay_adjuntos">No hay adjuntos</string>
+
+  <!-- Pre Orden -->
+  <string name="valor_total">Valor total:</string>
+  <string name="total_descuento">Total descuento:</string>
+  <string name="proveedor">Proveedor:</string>
+  <string name="condicion">Condición:</string>
+  <string name="supervisor">Supervisor:</string>
+  <string name="comprador">Comprador:</string>
+  <string name="um">UM:</string>
+  <string name="cantidad_autorizada">Cantidad autorizada:</string>
+  <string name="valor_unitario">Valor unitario:</string>
+  <string name="valor_total_compra">Valor total compra:</string>
+
+  <!-- Rechazar o Aprobar -->
+  <string name="escribe_comentario">Escribe un comentario (opcional)</string>
+  <string name="cancelar_popup">CANCELAR</string>
+  <string name="aprobar_popup">APROBAR</string>
+  <string name="rechazar_popup">RECHAZAR</string>
+  
+</resources>

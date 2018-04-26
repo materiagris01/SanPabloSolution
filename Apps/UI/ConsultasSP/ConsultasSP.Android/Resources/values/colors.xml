@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#f87652</color>
+  <color name="colorPrimaryDark">#323232</color>
+  <color name="colorAccent">#f87652</color>
+  <color name="orange_transparent">#66fd8100</color>
+  <color name="orange">#fd8100</color>
+  <color name="window_background">#90000000</color>
+  <color name="btn_preg_hedonica_gris">#CCCCCC</color>
+  <color name="btn_preg_hedonica_orange">@color/orange</color>
+  <color name="background_footer_item_grid_categorias">#90000000</color>
+  <color name="background_colorLightGray">#D1D9D9</color>
+  <color name="black">#000000</color>
+  <color name="white">#ffffff</color>
+  <color name="purple">#310030</color>
+  <color name="transparent">#00FFFFFF</color>
+  <color name="black_transparent">#CC000000</color>
+  <color name="black_transparents">#33000000</color>
+  <color name="white_transparent">#33FFFFFF</color>
+  <color name="success_colorDark">#339d29</color>
+  <color name="red_color">#d62d20</color>
+  <color name="green_color">#008744</color>
+  <color name="blue_color">#0057e7</color>
+  <color name="yellow_color">#ffa700</color>
+  <color name="gray">#e0e0e0</color>
+  <color name="blue_light">#4bcde1</color>
+  <color name="blue_dark">#1e88e5</color>
+  <color name="btn_blueStart">#3896e5</color>
+  <color name="btn_blueEnd">#3ec1fd</color>
+  <color name="gray_dark">#757575</color>
+  <color name="status_bar">#558eb4</color>
+  <color name="blue_desactivo">#236f91</color>
+
+  <color name="uber_white">#FFFFFF</color>
+  <color name="top_menu">#1E201F</color>
+  <color name="neutral_background">#494C4A</color>
+  <color name="main_background">#FFFFFF</color>
+  <color name="accent_color">#89C3BD</color>
+  <color name="accent_color_transparent">#8889C3BD</color>
+  <color name="success_color">#3DBD31</color>
+  <color name="fail_color">#FC7352</color>
+  <color name="informative_color">#E8D93A</color>
+  <color name="accent_color_letras">#FFFFFF</color>
+  <color name="background_comentarios">#ECECEC</color>
+
+  <!-- Juegos -->
+  <color name="naranja_juegos">#FF9800</color>
+  <color name="fucsia_juegos">#F44336</color>
+  <color name="verde_juegos">#8BC34A</color>
+
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "99638233232",
+    "firebase_url": "https://sanpabloapp-afa3b.firebaseio.com",
+    "project_id": "sanpabloapp-afa3b",
+    "storage_bucket": "sanpabloapp-afa3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99638233232:android:b1067a8bf07acacb",
+        "android_client_info": {
+          "package_name": "com.materiagris.ConsultasSP"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99638233232-2d7gjj7nink4evt63nddqo280dd20vvo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.materiagris.ConsultasSP",
+            "certificate_hash": "cbc5559ca62ae989434abfbe8499f6c27ddcc843"
+          }
+        },
+        {
+          "client_id": "99638233232-1rjs33uf79hajdo8qmc29do3708mcdkq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzO83R3aUge7Qc3zpenrwGcOPqVXk5qgA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99638233232-1rjs33uf79hajdo8qmc29do3708mcdkq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

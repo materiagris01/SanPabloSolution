@@ -1,0 +1,8 @@
+﻿<menu xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:myapp="http://schemas.android.com/apk/res-auto">
+  <item android:id="@+id/action_search"
+    android:icon="@mipmap/ic_buscar"
+    android:title="Buscar"
+    android:showAsAction="ifRoom"
+    myapp:showAsAction="always"/>
+</menu>

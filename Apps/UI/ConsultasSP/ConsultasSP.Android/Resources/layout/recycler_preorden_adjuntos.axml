@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:layout_marginTop="@dimen/n_5"
+  android:layout_marginBottom="@dimen/n_5">
+  <RelativeLayout
+    android:id="@+id/LineaUno"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/n_10"
+    android:orientation="horizontal">
+    <ImageView
+      android:id="@+id/imgPDF"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:src="@mipmap/ic_pdf" />
+    <TextView
+      android:id="@+id/NombrePdfPreorden"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="@dimen/ns_10"
+      android:layout_marginLeft="@dimen/n_15"
+      android:paddingTop="@dimen/n_5"
+      android:layout_toRightOf="@+id/imgPDF"/>
+    <TextView
+      android:id="@+id/FechaPdfPreorden"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="@dimen/ns_10"
+      android:layout_below="@id/NombrePdfPreorden"
+      android:layout_marginLeft="@dimen/n_15"
+      android:layout_toRightOf="@+id/imgPDF"/>
+  </RelativeLayout>
+  <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_below="@id/imgPDF"
+    android:background="@color/gray" />
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/n_220"
+    android:background="@color/white"
+    android:padding="@dimen/n_30"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:orientation="vertical"
+    android:gravity="center">
+    <ImageView
+      android:id="@+id/ImagenLogo"
+      android:src="@mipmap/logo_san_pablo"
+      android:layout_width="@dimen/n_160"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:layout_centerInParent="true" />
+    <TextView
+      android:id="@+id/NombreUsuario"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="@dimen/n_20"
+      android:textColor="@color/black"
+      android:textSize="@dimen/ns_20"
+      android:gravity="center"
+      android:singleLine="true"/>
+  <TextView
+      android:id="@+id/CargoUsuario"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textColor="@color/gray_dark"
+      android:layout_marginBottom="@dimen/n_25"
+      android:textSize="@dimen/ns_14"
+      android:gravity="center"
+      android:singleLine="true"/>
+  <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:background="@color/gray" />
+</LinearLayout>
